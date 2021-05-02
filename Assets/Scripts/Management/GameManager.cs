@@ -54,9 +54,9 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Increases the score an updates the text UI
     /// </summary>
-    public void IncreaseScore()
+    public void IncreaseScore(int points)
     {
-        score++;
+        score += points;
         scoreText.text = score.ToString();
     }
 

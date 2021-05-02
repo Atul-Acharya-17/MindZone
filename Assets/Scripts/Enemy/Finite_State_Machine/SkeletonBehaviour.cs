@@ -118,7 +118,7 @@ public class SkeletonBehaviour : MonoBehaviour
         {
             if (gm!= null)
             {
-                gm.IncreaseScore();
+                gm.IncreaseScore(1);
             }
             ChangeState(State.Die);
             skeletonAnimator.SetTrigger("death");
@@ -150,7 +150,7 @@ public class SkeletonBehaviour : MonoBehaviour
         {
             if (gm != null)
             {
-                gm.IncreaseScore();
+                gm.IncreaseScore(1);
             }
             ChangeState(State.Die);
             skeletonAnimator.SetTrigger("death");

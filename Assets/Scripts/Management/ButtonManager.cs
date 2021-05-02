@@ -66,6 +66,7 @@ public class ButtonManager : MonoBehaviour
     /// </summary>
     void RenderScene()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         SceneManager.LoadScene("GameScene");
     }
 

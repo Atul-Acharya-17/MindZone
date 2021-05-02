@@ -65,6 +65,11 @@ public class CreatureBehaviour : MonoBehaviour
     /// </summary>
     private float timeToAttack = 0.0f;
 
+    /// <summary>
+    /// Lock to prevent increasing score twice
+    /// </summary>
+    private bool locked = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -145,8 +150,16 @@ public class CreatureBehaviour : MonoBehaviour
     /// <returns>Returns NodeState</returns>
     NodeState Die()
     {
+        GameManager gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+
         if (target.Health <= 0.0f)
         {
+            if (!locked && gm != null)
+            {
+                locked = true;
+                gm.IncreaseScore(5);
+            }
+
             creature.Die();
             enemyAnimator.SetInteger("fast", -1);
             enemyAnimator.SetTrigger("death");
@@ -244,7 +257,7 @@ public class CreatureBehaviour : MonoBehaviour
     /// <summary>
     /// Creates the behaviour tree of the Creature
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Returns NodeState</returns>
     private BehaviourTree CreateBehaviourTree()
     {
         
