@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 17134.1304; Version 1803; 64bit' Language: 'en' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Code/MindZone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51556
+Successfully changed project path to: C:/Code/MindZone
+C:/Code/MindZone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 22.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Code/MindZone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d52)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   25.21.14.1971
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001372 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1156 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.982199 ms (FindLiveObjects: 0.159357 ms CreateObjectMapping: 0.029301 ms MarkObjects: 1.697926 ms  DeleteObjects: 0.094072 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Cortex
+  artifactKey: Guid(226aa5d6ffd7cbb4582512e42214343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex using Guid(226aa5d6ffd7cbb4582512e42214343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d35bcb69712ca694f71e41f2a980e') in 0.007435 seconds
+  Import took 0.009536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.303198 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7438219e8fcf03366e706b3204048eb6') in 0.023774 seconds
+  Import took 0.026019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002667 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7438219e8fcf03366e706b3204048eb6') in 0.002128 seconds
+  Import took 0.004221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 1.579180 ms (FindLiveObjects: 0.129028 ms CreateObjectMapping: 0.034956 ms MarkObjects: 1.398232 ms  DeleteObjects: 0.014908 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.889155 ms (FindLiveObjects: 0.139823 ms CreateObjectMapping: 0.032386 ms MarkObjects: 1.701011 ms  DeleteObjects: 0.015422 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3028.178884 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f317909eff5b87104aebbe60424b4b') in 0.004480 seconds
+  Import took 0.006513 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 1.805878 ms (FindLiveObjects: 0.157301 ms CreateObjectMapping: 0.037526 ms MarkObjects: 1.594601 ms  DeleteObjects: 0.015422 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.620400 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6cd33a65ea521fe70acf52db523012') in 0.003881 seconds
+  Import took 0.015571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1616.
+Total: 1.631613 ms (FindLiveObjects: 0.143936 ms CreateObjectMapping: 0.033928 ms MarkObjects: 1.439870 ms  DeleteObjects: 0.012851 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1415.011393 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0095ebb2c67f2dc2a6f57c26727e7e') in 0.003973 seconds
+  Import took 0.005623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002709 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1619.
+Total: 2.305026 ms (FindLiveObjects: 0.234924 ms CreateObjectMapping: 0.056546 ms MarkObjects: 1.993509 ms  DeleteObjects: 0.018506 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 616.246593 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8511ac17bc69c7e2a2383c696b96a461') in 0.006782 seconds
+  Import took 0.008713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 1.735452 ms (FindLiveObjects: 0.134683 ms CreateObjectMapping: 0.032386 ms MarkObjects: 1.535485 ms  DeleteObjects: 0.032386 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.469250 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png
+  artifactKey: Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png using Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba0eae1470f619e1e68119e689d442') in 0.063756 seconds
+  Import took 0.066261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/DungeonSkeletons_pack.jpg
+  artifactKey: Guid(638407f285212d546845248f67bd99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/DungeonSkeletons_pack.jpg using Guid(638407f285212d546845248f67bd99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8ffefb32a538de524e7a26d9986d98') in 0.025659 seconds
+  Import took 0.027891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.tga
+  artifactKey: Guid(cc8275683754a6b48aa2c7db7e36dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.tga using Guid(cc8275683754a6b48aa2c7db7e36dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c0acd8a585ef3902666ed7b4362728') in 0.023451 seconds
+  Import took 0.025907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Environment/Textures/Catacombs.png
+  artifactKey: Guid(921e4c8e07210c7448fbfdb8127db7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Environment/Textures/Catacombs.png using Guid(921e4c8e07210c7448fbfdb8127db7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a227643240eb721056d27422e4339e7a') in 0.032383 seconds
+  Import took 0.034958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Plugins/plugin/Documentation/Images/CodeStructure.png
+  artifactKey: Guid(9375beac6f343e44d8240f720609e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/plugin/Documentation/Images/CodeStructure.png using Guid(9375beac6f343e44d8240f720609e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa0e87f8c2f6d86cc47a7d8929c8e86') in 0.036520 seconds
+  Import took 0.038741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png
+  artifactKey: Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png using Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f17cba1fa3a4f5afe9a846c9978db') in 0.051665 seconds
+  Import took 0.054217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png
+  artifactKey: Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png using Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba0eae1470f619e1e68119e689d442') in 0.017941 seconds
+  Import took 0.020733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png
+  artifactKey: Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png using Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f17cba1fa3a4f5afe9a846c9978db') in 0.013817 seconds
+  Import took 0.016455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Environment/Textures/Catacombs_NRML.png
+  artifactKey: Guid(982a00f67b4c19e41a01aede3040547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Environment/Textures/Catacombs_NRML.png using Guid(982a00f67b4c19e41a01aede3040547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ae8b3553aef628531b6746e3173604') in 0.027551 seconds
+  Import took 0.029956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoSkeleton.png
+  artifactKey: Guid(93a30b3efbbb97a40a76cdded555126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoSkeleton.png using Guid(93a30b3efbbb97a40a76cdded555126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65400c306b515f9beb8ad8d5fb33dddc') in 0.019745 seconds
+  Import took 0.022503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544923 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Black.png
+  artifactKey: Guid(d962094b1569b2a488f813051a429e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Black.png using Guid(d962094b1569b2a488f813051a429e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dd44601928f86b8083142fc8b58051') in 0.029220 seconds
+  Import took 0.032438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png
+  artifactKey: Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png using Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97340da558be420be1aaa50238c42f0f') in 0.021008 seconds
+  Import took 0.022947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png
+  artifactKey: Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png using Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fb34c54f24155faded15facbc2ff29') in 0.019925 seconds
+  Import took 0.022204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png
+  artifactKey: Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png using Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a49f17c04ca8f584331d121a9ab69f0') in 0.024844 seconds
+  Import took 0.026778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Steel.png
+  artifactKey: Guid(7714950642003ee488bdddb49dd229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Steel.png using Guid(7714950642003ee488bdddb49dd229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1a28fbf34fe9866a36a9042bb72e49') in 0.017605 seconds
+  Import took 0.019840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png
+  artifactKey: Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png using Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f9475a6e048a958cd1b1e846ffe22') in 0.018758 seconds
+  Import took 0.020518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.165231 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png
+  artifactKey: Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png using Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800b438a3dbeb407b0438c3668a7517e') in 0.028007 seconds
+  Import took 0.030459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Normal.png
+  artifactKey: Guid(9700d9e5832c89944afd7ef24f4d919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Normal.png using Guid(9700d9e5832c89944afd7ef24f4d919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846567655c6c621d36a15bd8acae2553') in 0.028933 seconds
+  Import took 0.030944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(23dc8aba8f44ff243a9302fe23b38dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/SampleScene/ReflectionProbe-0.exr using Guid(23dc8aba8f44ff243a9302fe23b38dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506eba3aa6b2dbc972c68beb3aea9258') in 0.047630 seconds
+  Import took 0.049559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash_SpriteSheet.png
+  artifactKey: Guid(6fc0c6421525c1844804ab1d17f1adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash_SpriteSheet.png using Guid(6fc0c6421525c1844804ab1d17f1adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c2a7b2e18da89699f93ab7e3653522') in 0.029158 seconds
+  Import took 0.031183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135701 seconds.
+  path: Assets/_Scenes/GameScene/ReflectionProbe-0.exr
+  artifactKey: Guid(dec860a345ea059488a383bfa591c75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/GameScene/ReflectionProbe-0.exr using Guid(dec860a345ea059488a383bfa591c75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dc9963f019a599e4018a825df5f07e') in 0.015004 seconds
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Base_Color.png
+  artifactKey: Guid(48f4f66d4e15b924e845a15cc353d2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Base_Color.png using Guid(48f4f66d4e15b924e845a15cc353d2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff7d77f68c683e8f7178e6179405299') in 0.028285 seconds
+  Import took 0.030208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Height.png
+  artifactKey: Guid(3c7a004c57c50734dbb1e28a97b82e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Height.png using Guid(3c7a004c57c50734dbb1e28a97b82e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f933c2ebbbffc7e5e517d692ba18b545') in 0.027964 seconds
+  Import took 0.029942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_ao.png
+  artifactKey: Guid(4bd99862ffa08cb429cb4f8d415567c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_ao.png using Guid(4bd99862ffa08cb429cb4f8d415567c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6467430319b1b525a24447d91a92cb7f') in 0.032538 seconds
+  Import took 0.034618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_diff.png
+  artifactKey: Guid(2f0b93b23f28e7a4fb6a5ff14f36b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_diff.png using Guid(2f0b93b23f28e7a4fb6a5ff14f36b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7a4e864429cc241ba031d6ea2c4b0c') in 0.030054 seconds
+  Import took 0.031839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Normal.png
+  artifactKey: Guid(fff10447baa86b44aa549f50f310265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Normal.png using Guid(fff10447baa86b44aa549f50f310265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54723365474a0e06cffd99a50dff0415') in 0.024320 seconds
+  Import took 0.026315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Ambient_Occlusion.png
+  artifactKey: Guid(2ea2b4b58caf5a442bd2bcf1d75e725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Ambient_Occlusion.png using Guid(2ea2b4b58caf5a442bd2bcf1d75e725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e367e54577eb0fbf93876f70fdd9b9d5') in 0.022690 seconds
+  Import took 0.024727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Roughness.png
+  artifactKey: Guid(7bd79b1b559c13c4ea25e26930a8d68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Stone_Roughness.png using Guid(7bd79b1b559c13c4ea25e26930a8d68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc2812750973f19b96180b4f1159c81') in 0.019032 seconds
+  Import took 0.020968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085097 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_met_smo.png
+  artifactKey: Guid(ab29984b060fd854d90c1ce9796a5c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_met_smo.png using Guid(ab29984b060fd854d90c1ce9796a5c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104c9726ee92c112a70136c89ee40519') in 0.020561 seconds
+  Import took 0.022847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_nrml.png
+  artifactKey: Guid(dc9bf18a623eca547af0bc007e992a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_nrml.png using Guid(dc9bf18a623eca547af0bc007e992a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5815b97dc81b94affc6447aba4376a1') in 0.029071 seconds
+  Import took 0.031109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009057 seconds.
+  path: Assets/Images/WhiteSquare.jpg
+  artifactKey: Guid(24caf21cd85a4a145ba684c35b6f9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WhiteSquare.jpg using Guid(24caf21cd85a4a145ba684c35b6f9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d81a73f9ec7b534f09025cb1024062') in 0.028282 seconds
+  Import took 0.030323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.684507 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat
+  artifactKey: Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat using Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ec700656e9a4cb67d297d7c7b31f17') in 0.298894 seconds
+  Import took 0.301153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat
+  artifactKey: Guid(286bfe7af7bc3674b8c59fbc601e9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat using Guid(286bfe7af7bc3674b8c59fbc601e9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472c56928671ee533af4e87e70179f09') in 0.157157 seconds
+  Import took 0.159492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat
+  artifactKey: Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat using Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f1ce454effbca625fc4b764ca7ec79') in 0.255405 seconds
+  Import took 0.257279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Environment/Materials/catacombs.mat
+  artifactKey: Guid(8c42c215b428f7e4ba92dff47e245b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Environment/Materials/catacombs.mat using Guid(8c42c215b428f7e4ba92dff47e245b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8f90fc31f3bf9f907db4c90d626ed6') in 0.023716 seconds
+  Import took 0.025529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat
+  artifactKey: Guid(e5e81676514139d4c85683994e6378df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat using Guid(e5e81676514139d4c85683994e6378df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff7156dfccb6affe82bd0d1824d04df') in 0.018625 seconds
+  Import took 0.021035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/animation/Materials/DemoEquipment.mat
+  artifactKey: Guid(c7d477a71398e3f2ebe4f1b8c6c48084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/animation/Materials/DemoEquipment.mat using Guid(c7d477a71398e3f2ebe4f1b8c6c48084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f854cb011076251986ea4c9ba6dc39f') in 0.018107 seconds
+  Import took 0.020048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat
+  artifactKey: Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat using Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ec700656e9a4cb67d297d7c7b31f17') in 0.013491 seconds
+  Import took 0.015741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Imports/DungeonCharacters/Skeletons_demo/animation/Materials/DS_skeleton_standard.mat
+  artifactKey: Guid(9b4578962dc4130f58e6b59c2288214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters/Skeletons_demo/animation/Materials/DS_skeleton_standard.mat using Guid(9b4578962dc4130f58e6b59c2288214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9328d59c17c56f62e4f87cf6947e62be') in 0.013689 seconds
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat
+  artifactKey: Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat using Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de9ce20097f366bd18ed161e69a9405') in 0.037532 seconds
+  Import took 0.130141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.538402 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Black.mat
+  artifactKey: Guid(ad4be7b2be81ece4cbe850cfede8b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Black.mat using Guid(ad4be7b2be81ece4cbe850cfede8b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1242f790608be83244309a76625700b') in 0.029477 seconds
+  Import took 0.031662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Steel.mat
+  artifactKey: Guid(8ca21f01f2c5c9c4aa7e714faf94251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Steel.mat using Guid(8ca21f01f2c5c9c4aa7e714faf94251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e8571212f83d69b0a66a0aab6ec2ff') in 0.024677 seconds
+  Import took 0.026638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.916666 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.mat
+  artifactKey: Guid(3b9b73bdf59096b4f8ca30c0a5d98a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.mat using Guid(3b9b73bdf59096b4f8ca30c0a5d98a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3a9f4cda9285d799ea162e3f36263e') in 0.102919 seconds
+  Import took 0.105241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Base_Color.mat
+  artifactKey: Guid(c796a187aca37cccfb25347bf7e8db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Base_Color.mat using Guid(c796a187aca37cccfb25347bf7e8db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d012b56b36b3cc53f690240c388190') in 0.218730 seconds
+  Import took 0.220361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Height.mat
+  artifactKey: Guid(95225cb6e58b5e35e9a5a4db131cf29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Height.mat using Guid(95225cb6e58b5e35e9a5a4db131cf29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6264f872da6b7f1dc23e0625b816b03f') in 0.022435 seconds
+  Import took 0.025646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Materials/thc6.mat
+  artifactKey: Guid(e0843adb1442b464e8ff88c5a0b9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/True_Horror_Creatures/Horror_creature6_v1.0/Materials/thc6.mat using Guid(e0843adb1442b464e8ff88c5a0b9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8c6a146f64ee85ef26bdae691bde9d') in 0.041706 seconds
+  Import took 0.044990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Material/Stone_mobile.mat
+  artifactKey: Guid(094c835627124fe4bbbaa762d2240cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Material/Stone_mobile.mat using Guid(094c835627124fe4bbbaa762d2240cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e03564590e37ea7258eca87b57fe66') in 0.100082 seconds
+  Import took 0.102357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Ambient_Occlusion.mat
+  artifactKey: Guid(3ff245dbae0095146a278c0421605ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Ambient_Occlusion.mat using Guid(3ff245dbae0095146a278c0421605ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd18403adf164874d303573d8c4d2c27') in 0.024491 seconds
+  Import took 0.026888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Normal.mat
+  artifactKey: Guid(3c4fec970c302b3daa6d885034d32e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Normal.mat using Guid(3c4fec970c302b3daa6d885034d32e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4db4a913db04ff3071d8302e2e4e8a9') in 0.027231 seconds
+  Import took 0.029341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Roughness.mat
+  artifactKey: Guid(1dd5edf2df1a80460a3a77dcba142e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Roughness.mat using Guid(1dd5edf2df1a80460a3a77dcba142e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9fae00f53620f9cf57009e717bbff') in 0.022112 seconds
+  Import took 0.024145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Material/Stone_normal.mat
+  artifactKey: Guid(5f73475cf0cad364b9800b85c2a229fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Material/Stone_normal.mat using Guid(5f73475cf0cad364b9800b85c2a229fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d37fdcf17ae9cf5d2965ff1d35d8a5') in 0.291013 seconds
+  Import took 0.293246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Roughness.mat
+  artifactKey: Guid(1dd5edf2df1a80460a3a77dcba142e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture/Texture/Materials/Stone_Roughness.mat using Guid(1dd5edf2df1a80460a3a77dcba142e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9fae00f53620f9cf57009e717bbff') in 0.017427 seconds
+  Import took 0.019198 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 1.498473 ms (FindLiveObjects: 0.128514 ms CreateObjectMapping: 0.048835 ms MarkObjects: 1.308786 ms  DeleteObjects: 0.011823 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 1.640352 ms (FindLiveObjects: 0.161928 ms CreateObjectMapping: 0.036498 ms MarkObjects: 1.429075 ms  DeleteObjects: 0.011309 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1679.
+Total: 1.991966 ms (FindLiveObjects: 0.157301 ms CreateObjectMapping: 0.044209 ms MarkObjects: 1.775549 ms  DeleteObjects: 0.013365 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 1.520577 ms (FindLiveObjects: 0.200996 ms CreateObjectMapping: 0.039068 ms MarkObjects: 1.267662 ms  DeleteObjects: 0.012337 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.980470 seconds.
+  path: Assets/Audio/2 spooky 4 me 9.wav
+  artifactKey: Guid(cee9653c78deea57986961ffbe7062a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/2 spooky 4 me 9.wav using Guid(cee9653c78deea57986961ffbe7062a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abb7ccf6574f39b2a3b09546249963') in 0.143800 seconds
+  Import took 0.146195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Casing.prefab
+  artifactKey: Guid(4cb20e8abae957146a8b78e670d3fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Casing.prefab using Guid(4cb20e8abae957146a8b78e670d3fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc29738bcc13f346c4d88273b0b1e22') in 0.049328 seconds
+  Import took 0.051769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Audio/2 spooky 4 me 9.wav
+  artifactKey: Guid(cee9653c78deea57986961ffbe7062a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/2 spooky 4 me 9.wav using Guid(cee9653c78deea57986961ffbe7062a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abb7ccf6574f39b2a3b09546249963') in 0.008290 seconds
+  Import took 0.011244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx
+  artifactKey: Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx using Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70e8307c713376553d5049e0b032c17') in 0.067886 seconds
+  Import took 0.070642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab
+  artifactKey: Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab using Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee0954ee5651d5b088056e57d38b959') in 0.023765 seconds
+  Import took 0.026340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet.prefab
+  artifactKey: Guid(674adf642abf5614aae2995443c8250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet.prefab using Guid(674adf642abf5614aae2995443c8250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab65c52a012d76fb9d5cdeb8507400c4') in 0.014749 seconds
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 1.595115 ms (FindLiveObjects: 0.158329 ms CreateObjectMapping: 0.068369 ms MarkObjects: 1.350425 ms  DeleteObjects: 0.015936 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 2.903901 ms (FindLiveObjects: 0.301751 ms CreateObjectMapping: 0.055004 ms MarkObjects: 2.493685 ms  DeleteObjects: 0.051406 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1151 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 1.624416 ms (FindLiveObjects: 0.151646 ms CreateObjectMapping: 0.030843 ms MarkObjects: 1.425991 ms  DeleteObjects: 0.014394 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35024.541232 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd399b4f3f4e8246ffd0c13e95e991bd') in 0.020427 seconds
+  Import took 0.022793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017659 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd399b4f3f4e8246ffd0c13e95e991bd') in 0.008532 seconds
+  Import took 0.011143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1151 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 1.589975 ms (FindLiveObjects: 0.159357 ms CreateObjectMapping: 0.028273 ms MarkObjects: 1.390007 ms  DeleteObjects: 0.011309 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.833415 seconds.
+  path: Assets/Scripts/Cortex/CortexFacade.cs
+  artifactKey: Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cortex/CortexFacade.cs using Guid(0cbbf8fa68be1f64cb40da8bb9cbdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a967ce74e6cadf6b38ab91586c5b173f') in 0.004056 seconds
+  Import took 0.005733 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
