@@ -81,6 +81,7 @@ namespace EmotivUnityPlugin
                 string name = (string)ele["name"];
                 profileLists.Add(name);
             }
+            
             QueryProfileOK(this, profileLists);
         }
 
@@ -172,6 +173,13 @@ namespace EmotivUnityPlugin
         {
             
             string cortexToken = _authorizer.CortexToken;
+
+            if (_headsetId == null)
+            {
+                _ctxClient.SetupProfile(cortexToken, profileName, "load", "EPOCPLUS-3B9ACA8A");
+            }
+
+            else
             _ctxClient.SetupProfile(cortexToken, profileName, "load", _headsetId);
         }
 

@@ -6,7 +6,7 @@ public class Gun : MonoBehaviour
     /// <summary>
     /// Damage dealth by the gun.
     /// </summary>
-    [SerializeField] private float damage = 10f; // Taken from Emotiv More attention implies greater damage
+    private float baseDamage = 10f; // Taken from Emotiv More attention implies greater damage
 
     /// <summary>
     /// First Person Camera
@@ -56,6 +56,15 @@ public class Gun : MonoBehaviour
             Target target = hit.transform.GetComponent<Target>();
             if (target != null)
             {
+                string Action = CortexFacade.GetAction();
+
+                float damage = baseDamage;
+
+                if (Action != "neutral")
+                {
+                    damage *= 5.0f;
+                }
+
                 target.TakeDamage(damage);
             }
 

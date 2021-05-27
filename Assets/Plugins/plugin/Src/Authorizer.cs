@@ -13,7 +13,7 @@ namespace EmotivUnityPlugin
         static readonly object _locker = new object();
         private CortexClient _ctxClient = CortexClient.Instance;
         private static string _cortexToken = "";
-        private static string _emotivId = "";
+        private static string _emotivId = "atulacharya17";
         private static string _licenseID = "";
         private static int _debitNo = 5000; // default value
 
@@ -90,7 +90,7 @@ namespace EmotivUnityPlugin
 
         private void OnGetLicenseInfoDone(object sender, License lic)
         {
-            // UnityEngine.Debug.Log(" OnGetLicenseInfoDone:  lic: " + lic.licenseId);
+            UnityEngine.Debug.Log(" OnGetLicenseInfoDone:  lic: " + lic.licenseId);
             if (lic.expired) {
                 ConnectServiceStateChanged(this, ConnectToCortexStates.LicenseExpried);
                 LicenseExpired(this, lic);

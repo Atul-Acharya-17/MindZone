@@ -26,7 +26,6 @@ namespace EmotivUnityPlugin
 
         public HeadsetFinder()
         {
-            _ctxClient = CortexClient.Instance;
             _ctxClient.QueryHeadsetOK        += OnQueryHeadsetReceived;
             _ctxClient.HeadsetDisConnectedOK += OnHeadsetDisconnectedOK;
         }
@@ -48,7 +47,9 @@ namespace EmotivUnityPlugin
         /// </summary>
         public void FinderInit()
         {
-            SetQueryHeadsetTimer();
+            //SetQueryHeadsetTimer();
+            UnityEngine.Debug.Log("Finding Headsets");
+            _ctxClient.QueryHeadsets("");
         }
 
         public void StopQueryHeadset() {

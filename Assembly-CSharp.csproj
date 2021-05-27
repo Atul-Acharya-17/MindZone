@@ -64,17 +64,19 @@
     <Compile Include="Assets\Scripts\Management\GameManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy\Finite_State_Machine\SkeletonBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Cortex\Test.cs" />
     <Compile Include="Assets\Scripts\Enemy\Behaviour_Tree\CreatureController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Behaviour_Tree\BehaviourTree.cs" />
     <Compile Include="Assets\Scripts\Enemy\Behaviour_Tree\CreatureBehaviour.cs" />
     <Compile Include="Assets\Scripts\Management\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Player\Gun.cs" />
+    <Compile Include="Assets\Scripts\Cortex\CortexFacade.cs" />
     <Compile Include="Assets\Imports\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
     <Compile Include="Assets\Scripts\Enemy\Finite_State_Machine\SkeletonController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Behaviour_Tree\Leaf.cs" />
     <Compile Include="Assets\Scripts\Enemy\Behaviour_Tree\Sequence.cs" />
     <Compile Include="Assets\Scripts\Enemy\Target.cs" />
-    <Compile Include="Assets\Scripts\Cortex\CortexFacade.cs" />
+    <Compile Include="Assets\Scripts\Cortex\CortexStarter.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Imports\Nokobot\Modern Guns - Handgun\README.txt" />

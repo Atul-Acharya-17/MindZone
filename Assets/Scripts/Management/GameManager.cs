@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using EmotivUnityPlugin;
 
 public class GameManager : MonoBehaviour
 {
@@ -37,6 +38,11 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
+        List<string> dataStreamList = new List<string>();
+        dataStreamList.Add(DataStreamName.MentalCommands);
+        dataStreamList.Add(DataStreamName.SysEvents);
+
+        CortexFacade.StartDataStream(dataStreamList);
         scoreText.text = score.ToString();
     }
 
@@ -81,6 +87,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void GameOver()
     {
+        CortexFacade.Stop();
         scoreText.text = "Final Score: " + score.ToString();
         Invoke("LoadMenu", 5);
     }

@@ -1,4 +1,5 @@
 
+const { disconnect } = require('process');
 const WebSocket = require('ws');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
@@ -108,6 +109,25 @@ subscribe = {
   }
 }
 
+queryProfile = {
+  "id": 5,
+  "jsonrpc": "2.0",
+  "method": "queryProfile",
+  "params": {
+      "cortexToken": cortexToken
+  }
+}
+
+disconnectHeadset = {
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "controlDevice",
+  "params": {
+      "command": "disconnect",
+      "headset": device
+  }
+}
+
 function function2() {
   socket.send(JSON.stringify(startSession));
 }
@@ -117,7 +137,7 @@ socket.onopen = function (event) {
   console.log("Reply from server:\n");
   //socket.send(JSON.stringify(userInfo));
   //socket.send(JSON.stringify(control));
-  socket.send(JSON.stringify(querySessions));
+  socket.send(JSON.stringify(headset));
 
   //setTimeout(function1, 5000);
 

@@ -106,10 +106,11 @@ namespace EmotivUnityPlugin
         {
             UnityEngine.Debug.Log("OnConnectServiceStateChanged: " + state);
             if (state == ConnectToCortexStates.Service_connecting) {
+                Debug.Log("Stopping sometjhing");
                 StopQueryHeadset();
                 // TODO: should check change state at Connect headset controllers
             }
-
+            UnityEngine.Debug.Log(state);
             _connectCortexState = state;
         }
 
@@ -120,7 +121,7 @@ namespace EmotivUnityPlugin
 
         private void OnGetLicenseInfoDone(object sender, License lic)
         {
-            LicenseValidTo(this, lic.validTo);
+            //LicenseValidTo(this, lic.validTo);
             _headsetFinder.FinderInit();
         }
 

@@ -77,6 +77,7 @@ public class ButtonManager : MonoBehaviour
     void Quit()
     {
         UnityEditor.EditorApplication.isPlaying = false;
+        CortexFacade.Stop();
         Application.Quit();
     }
 

@@ -41,7 +41,6 @@ namespace EmotivUnityPlugin
             _trainingHandler.TrainingOK         += OnTrainingOK;
             _trainingHandler.GetDetectionInfoOK += OnGetDetectionInfoOK;
             _trainingHandler.ProfileLoaded      += OnProfileLoaded;
-
         }
 
         private void OnProfileLoaded(object sender, string profileName)
@@ -177,7 +176,7 @@ namespace EmotivUnityPlugin
         /// </summary>
         public void LoadProfile(string profileName)
         {
-            if (_profileLists.Contains(profileName)) {
+            if (_profileLists == null || _profileLists.Contains(profileName)) {
                 _trainingHandler.LoadProfile(profileName);
             }
             else

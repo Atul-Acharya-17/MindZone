@@ -222,7 +222,8 @@ namespace EmotivUnityPlugin
                     _isSessActivated    = true;
                     _readyCreateSession = false;
 
-                    SessionActivatedOK(this, _wantedHeadsetId);
+                    //SessionActivatedOK(this, _wantedHeadsetId);
+                    UnityEngine.Debug.Log("Going to subscribe");
                     _dsProcess.SubscribeData(sessionInfo.SessionId);
                 }
                 else {
@@ -347,8 +348,10 @@ namespace EmotivUnityPlugin
             lock (_locker)
             {
                 UnityEngine.Debug.Log("DataStreamManager: SubscribedOK");
+                UnityEngine.Debug.Log(e.Keys.Count);
                 foreach (string key in e.Keys)
                 {
+                    UnityEngine.Debug.Log(key);
                     int headerCount = e[key].Count;
                     if (key == DataStreamName.EEG) {
                         if (_eegBuff == null) {
@@ -421,6 +424,7 @@ namespace EmotivUnityPlugin
                     }
                     else if (key == DataStreamName.SysEvents) {
                         if (_sysLists == null){
+                            
                             _sysLists = new List<string>();
                             _sysLists.Add("TimeStamp");
                             foreach (var ele in e[key]) {
@@ -428,7 +432,7 @@ namespace EmotivUnityPlugin
                             }
                             _dsProcess.SysEventsReceived += OnSysEventReceived;
 
-                            SysEventSubscribed(this, _wantedHeadsetId);
+                            //SysEventSubscribed(this, _wantedHeadsetId);
                             UnityEngine.Debug.Log("Subscribed done: Sys event Stream");
                         }
                     }
@@ -480,12 +484,15 @@ namespace EmotivUnityPlugin
             foreach (var ele in _mentalCommandLists) {
                 comListsStr += ele + " , ";
             }
-            UnityEngine.Debug.Log("MentalCommand labels: " +comListsStr);
-            UnityEngine.Debug.Log("MentalCommand datas : " +comEvent.Time.ToString() + " , " 
-                                + comEvent.Act+ " , " + comEvent.Pow);
-            
-            // TODO: emit event to other modules
-            //MentalCommandReceived(this, comEvent);
+            //UnityEngine.Debug.Log("MentalCommand labels: " +comListsStr);
+            //UnityEngine.Debug.Log("MentalCommand datas : " +comEvent.Time.ToString() + " , " 
+            //                    + comEvent.Act+ " , " + comEvent.Pow);
+            UnityEngine.Debug.Log(comEvent.Act);
+            // TODO: emit event to other modules 
+
+            // MUST Store comEvent for the game
+
+            MentalCommandReceived(this, comEvent);
         }
 
         private void OnSysEventReceived(object sender, ArrayList data)
@@ -513,7 +520,11 @@ namespace EmotivUnityPlugin
         {
             lock (_locker)
             {
+
+                UnityEngine.Debug.Log(_detectedHeadsets.Count);
+                
                 foreach (var item in _detectedHeadsets) {
+                    UnityEngine.Debug.Log(item.HeadsetID + " " + item.Status);
                     if (item.HeadsetID == headsetId &&
                         item.Status == "connected"){
                         return true;
@@ -588,6 +599,7 @@ namespace EmotivUnityPlugin
         {
             lock (_locker)
             {
+                UnityEngine.Debug.Log("Wanted: " + _wantedHeadsetId);
                 UnityEngine.Debug.Log("DataStreamManager-StartDataStream: " + headsetId);
                 if (!string.IsNullOrEmpty(_wantedHeadsetId)) {
                     UnityEngine.Debug.Log("The data streams has already started for headset "
