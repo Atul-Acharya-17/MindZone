@@ -53,6 +53,15 @@ public class ButtonManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Plays the audio effect and invokes the PlayLeaderboard method
+    /// </summary>
+    public void ButtonClickLeaderboard()
+    {
+        PlayAudio();
+        Invoke("PlayLeaderboard", 1.5f);
+    }
+
+    /// <summary>
     /// Plays the audio effect and invokes the goBack method
     /// </summary>
     public void ButtonClickBack()
@@ -77,7 +86,6 @@ public class ButtonManager : MonoBehaviour
     void Quit()
     {
         UnityEditor.EditorApplication.isPlaying = false;
-        CortexFacade.Stop();
         Application.Quit();
     }
 
@@ -87,6 +95,14 @@ public class ButtonManager : MonoBehaviour
     void PlayRules()
     {
         SceneManager.LoadScene("RulesMenu");
+    }
+
+    /// <summary>
+    /// Loads the Leaderboard Scene
+    /// </summary>
+    void PlayLeaderboard()
+    {
+        SceneManager.LoadScene("Leaderboard");
     }
 
     /// <summary>

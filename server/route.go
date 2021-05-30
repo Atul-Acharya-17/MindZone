@@ -25,8 +25,24 @@ func getLeaderboard(res http.ResponseWriter, req *http.Request) {
 		return
 	}
 
+	var playerScores []entity.PlayerScore
+
+	for i := range players {
+		playerScore := entity.PlayerScore{Name: players[i].Name, Score: players[i].MaxScore}
+
+		playerScores = append(playerScores, playerScore)
+	}
+
+	sortedPlayerScores := sort(playerScores)
+
+	size := 5
+
+	if size > len(sortedPlayerScores) {
+		size = len(sortedPlayerScores)
+	}
+
 	res.WriteHeader(http.StatusOK)
-	json.NewEncoder(res).Encode(players)
+	json.NewEncoder(res).Encode(sortedPlayerScores[:size])
 }
 
 func saveScore(res http.ResponseWriter, req *http.Request) {
@@ -80,4 +96,17 @@ func saveScore(res http.ResponseWriter, req *http.Request) {
 	}
 	res.WriteHeader(http.StatusOK)
 	res.Write(result)
+}
+
+func sort(playerScores []entity.PlayerScore) []entity.PlayerScore {
+	for i := 1; i < len(playerScores); i++ {
+		for j := i; j > 0; j-- {
+			if playerScores[j].Score > playerScores[j-1].Score {
+				temp := playerScores[j]
+				playerScores[j] = playerScores[j-1]
+				playerScores[j-1] = temp
+			}
+		}
+	}
+	return playerScores
 }

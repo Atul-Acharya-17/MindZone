@@ -32,12 +32,15 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public Image healthBar;
 
+    public bool locker;
+
     /// <summary> 
     /// Start is called before the first frame update
     /// Initialises the text of the Text UI
     /// </summary>
     void Start()
     {
+        locker = false;
         List<string> dataStreamList = new List<string>();
         dataStreamList.Add(DataStreamName.MentalCommands);
         dataStreamList.Add(DataStreamName.SysEvents);
@@ -87,9 +90,21 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void GameOver()
     {
-        CortexFacade.Stop();
-        scoreText.text = "Final Score: " + score.ToString();
-        Invoke("LoadMenu", 5);
+        if (!locker)
+        {
+            string url = "http://localhost:8000/players";
+            Player player = new Player(CortexFacade.User, score);
+            string playerJSON = player.Stringify();
+            StartCoroutine(ServerController.Post(url, playerJSON,
+                result => {
+                    Debug.Log(result);
+                }));
+            CortexFacade.Stop();
+            scoreText.text = "Final Score: " + score.ToString();
+            Invoke("LoadMenu", 5);
+            locker = true;
+        }
+        
     }
 
     /// <summary>
