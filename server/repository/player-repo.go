@@ -94,7 +94,7 @@ func (*repo) Update(player entity.Player) (*entity.Player, error) {
 
 	players := client.Collection(collectionName)
 
-	_, err = players.Doc(player.Name).Update(ctx, []firestore.Update{{Path: "MaxScore", Value: player.MaxScore}, {Path: "Scores", Value: player.Scores}})
+	_, err = players.Doc(player.Name).Update(ctx, []firestore.Update{{Path: "MaxScore", Value: player.MaxScore}, {Path: "Scores", Value: player.Scores}, {Path: "AttentionLevels", Value: player.AttentionLevels}})
 
 	if err != nil {
 		fmt.Println("Could not update record")

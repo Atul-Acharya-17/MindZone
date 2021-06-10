@@ -11,10 +11,14 @@ public class Player
     [SerializeField]
     private int score;
 
-    public Player(string name, int score)
+    [SerializeField]
+    private float attentionLevel;
+
+    public Player(string name, int score, float attentionLevel)
     {
         this.name = name;
         this.score = score;
+        this.attentionLevel = attentionLevel;
     }
 
     public string Stringify()

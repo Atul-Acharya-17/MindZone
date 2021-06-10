@@ -34,6 +34,13 @@ public class GameManager : MonoBehaviour
 
     public bool locker;
 
+    public int frames = 0;
+    public int attentionFrames = 0;
+
+    public Button attentionButton;
+    public Button neutralButton;
+
+
     /// <summary> 
     /// Start is called before the first frame update
     /// Initialises the text of the Text UI
@@ -41,11 +48,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         locker = false;
-        List<string> dataStreamList = new List<string>();
-        dataStreamList.Add(DataStreamName.MentalCommands);
-        dataStreamList.Add(DataStreamName.SysEvents);
+        //List<string> dataStreamList = new List<string>();
+        //dataStreamList.Add(DataStreamName.MentalCommands);
+        //dataStreamList.Add(DataStreamName.SysEvents);
 
-        CortexFacade.StartDataStream(dataStreamList);
+        //CortexFacade.StartDataStream(dataStreamList);
         scoreText.text = score.ToString();
     }
 
@@ -55,9 +62,31 @@ public class GameManager : MonoBehaviour
     /// </summary
     void Update()
     {
+
         if (IsGameOver())
         {
             GameOver();
+        }
+
+        else
+        {
+            frames += 1;
+            string action = CortexFacade.GetAction();
+            if (action != "neutral")
+            {
+                attentionFrames += 1;
+                IncreaseHealth(0.1f);
+                attentionButton.GetComponent<Image>().color = new Color(0f, 200f / 255f, 0f, 175/255f);
+                neutralButton.GetComponent<Image>().color = new Color(106f / 255f, 106f / 255f, 106f / 255f, 175 / 255f);
+                // Update button color
+            }
+
+            else
+            {
+                attentionButton.GetComponent<Image>().color = new Color(106f / 255f, 106f / 255f, 106f / 255f, 175 / 255f);
+                neutralButton.GetComponent<Image>().color = new Color(200f / 255f, 0f, 0f, 175 / 255f);
+                // Update button color
+            }
         }
     }
     /// <summary>
@@ -85,6 +114,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void IncreaseHealth(float increment)
+    {
+
+    }
+
     /// <summary>
     /// Invokes LoadMenu in 5 seconds
     /// </summary>
@@ -93,7 +127,7 @@ public class GameManager : MonoBehaviour
         if (!locker)
         {
             string url = "http://localhost:8000/players";
-            Player player = new Player(CortexFacade.User, score);
+            Player player = new Player(CortexFacade.User, score, (attentionFrames / frames) * 100 );
             string playerJSON = player.Stringify();
             StartCoroutine(ServerController.Post(url, playerJSON,
                 result => {

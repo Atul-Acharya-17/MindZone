@@ -1,7 +1,8 @@
 package entity
 
 type Player struct {
-	Name     string `json:"name"`
-	Scores   []int  `json:"scores"`
-	MaxScore int    `json:"maxScore"`
+	Name            string    `json:"name"`
+	Scores          []int     `json:"scores"`
+	AttentionLevels []float64 `json:"attentionLevels"`
+	MaxScore        int       `json:"maxScore"`
 }
