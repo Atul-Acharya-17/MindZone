@@ -80,7 +80,7 @@ shorter time
 
 ## Game Architecture
 
-![Overall Architecture](images/Architecture.png)
+![Overall Architecture](assets/Architecture.png)
 
 1. The Player interacts with the Mind-Zone Game
 2. The MindZone game reads data from the Cortex API and is connected to the EEG Headset using Bluetooth
@@ -89,11 +89,11 @@ shorter time
 ## Cortex API
 The API and code used to integrate the Game with the EEG Headset can be found in this repository https://github.com/Emotiv/cortex-v2-example/tree/master/unity
 
-![Cortex](images/CodeStructure.png)
+![Cortex](assets/CodeStructure.png)
 
 The MindZone game uses a Facade Deign Pattern to encapsulate all the neceassry classes of the Cortex API into a single class
 
-![CortexFacade](images/CortexFacade.png)
+![CortexFacade](assets/CortexFacade.png)
 
 ## Artificial Intelligence
 
@@ -113,7 +113,7 @@ units. If the payer moves away, the state changes
 back to the “chase” state. If the skeleton dies, the
 FSM reaches the terminal “death” state and if the
 player dies, the FSM reaches the “end” state.
-![FSM](images/fsm_new.png)
+![FSM](assets/fsm_new.png)
 
 ### Behavious Trees
 The creature is controlled by a behaviour tree with
@@ -148,5 +148,5 @@ Since the attack pattern can be thought of a
 sequence of attacks, a sequence node is best to
 model this behavior.
 
-![Behaviour Tree](images/b_tree.png)
+![Behaviour Tree](assets/b_tree.png)
 
