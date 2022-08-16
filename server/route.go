@@ -70,6 +70,7 @@ func saveScore(res http.ResponseWriter, req *http.Request) {
 	for i := range players {
 		if players[i].Name == playerScore.Name {
 			players[i].Scores = append(players[i].Scores, playerScore.Score)
+			players[i].AttentionLevels = append(players[i].AttentionLevels, playerScore.AttentionLevel)
 			if players[i].MaxScore < playerScore.Score {
 				players[i].MaxScore = playerScore.Score
 			}
@@ -85,7 +86,9 @@ func saveScore(res http.ResponseWriter, req *http.Request) {
 			return
 		}
 	}
-	var player = entity.Player{Name: playerScore.Name, Scores: []int{playerScore.Score}, MaxScore: playerScore.Score}
+
+	fmt.Println(playerScore.AttentionLevel)
+	var player = entity.Player{Name: playerScore.Name, Scores: []int{playerScore.Score}, MaxScore: playerScore.Score, AttentionLevels: []float64{playerScore.AttentionLevel}}
 	repo.Save(player)
 
 	result, err := json.Marshal(player)

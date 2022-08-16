@@ -1,0 +1,157 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Code/MindZone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59221
+Successfully changed project path to: C:/Code/MindZone
+C:/Code/MindZone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Code/MindZone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d52)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   25.21.14.1971
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002880 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.987300 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.756500 ms  DeleteObjects: 0.019900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Enemies/Creature.prefab
+  artifactKey: Guid(7e63fee2ecaa59949a152002dc327d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Creature.prefab using Guid(7e63fee2ecaa59949a152002dc327d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cada89e4eea8021570c4389f86218e') in 0.248404 seconds
+  Import took 0.252683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.393637 seconds.
+  path: Assets/Animators/CreatureAnimator.controller
+  artifactKey: Guid(1af172f696fc21c4e8de87d9437fff5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/CreatureAnimator.controller using Guid(1af172f696fc21c4e8de87d9437fff5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7786a1c4b5679d08f1be735e95fec95d') in 0.015647 seconds
+  Import took 0.018200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.852155 seconds.
+  path: Assets/Imports/Nokobot
+  artifactKey: Guid(eb79157e929402843be6a0a00c751d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Nokobot using Guid(eb79157e929402843be6a0a00c751d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc5da16e759a9ae3149c5305be08d3b') in 0.009177 seconds
+  Import took 0.012100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339676 seconds.
+  path: Assets/Imports/Hand Painted Stone Texture
+  artifactKey: Guid(701ecd334bf4822429181eac425d7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Hand Painted Stone Texture using Guid(701ecd334bf4822429181eac425d7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce67ea1ec068ace01e35a4052ec7ebe') in 0.010124 seconds
+  Import took 0.012924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530482 seconds.
+  path: Assets/Imports/DungeonCharacters
+  artifactKey: Guid(64cb57b6c35fab448a7ed76e14a8453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/DungeonCharacters using Guid(64cb57b6c35fab448a7ed76e14a8453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24951a7b6fc96d894facb8f5aec4943b') in 0.010383 seconds
+  Import took 0.013381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.186763 seconds.
+  path: Assets/Animators/SkeletonAnimation.controller
+  artifactKey: Guid(edfa6049242a9390ea69a7904e913286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/SkeletonAnimation.controller using Guid(edfa6049242a9390ea69a7904e913286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755bdeae9e75ed53b9ce54b6a7599810') in 0.012533 seconds
+  Import took 0.015225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.761787 seconds.
+  path: Assets/Animations/Attack.FBX
+  artifactKey: Guid(e8c86e30e797c3a0984d6e43578d4be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Attack.FBX using Guid(e8c86e30e797c3a0984d6e43578d4be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c64036e86ee964be5fa3af8375abfa') in 0.119144 seconds
+  Import took 0.121178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561950 seconds.
+  path: Assets/Animations/Death.anim
+  artifactKey: Guid(806c91b8d2df8b9fe9782caf04ff27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Death.anim using Guid(806c91b8d2df8b9fe9782caf04ff27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabd4d212e781cca8206131dad9a8505') in 0.009645 seconds
+  Import took 0.011915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001267 seconds.
+  path: Assets/Animations/Death.anim
+  artifactKey: Guid(806c91b8d2df8b9fe9782caf04ff27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Death.anim using Guid(806c91b8d2df8b9fe9782caf04ff27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabd4d212e781cca8206131dad9a8505') in 0.005323 seconds
+  Import took 0.007632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369259 seconds.
+  path: Assets/Animations/idle.FBX
+  artifactKey: Guid(1dda109660edf10809619528e9106da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/idle.FBX using Guid(1dda109660edf10809619528e9106da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bd5eb2a29e5eaec3f9774bf54f2200') in 0.008921 seconds
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.262115 seconds.
+  path: Assets/Animations/walk.FBX
+  artifactKey: Guid(0344dde13064c406c8339ea2e7d19f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/walk.FBX using Guid(0344dde13064c406c8339ea2e7d19f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51910fefabe24cd7348579c2322a2b6a') in 0.010461 seconds
+  Import took 0.013008 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
